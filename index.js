@@ -19,7 +19,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Down for updates","Down for updates","Down for updates","Down for updates"];
+const statusMessages = ["/configure","/promote","/configure","/punish"];
 
 
 let currentIndex = 0;
@@ -70,4 +70,3 @@ client.once('ready', () => {
 });
 
 login();
-
